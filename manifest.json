@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "ScreenShot",
+    "version": "1.0",
+    "description": "ScreenShot extension",
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "icons":{
+        "16":"screenshots.png"
+    }}
+  }
